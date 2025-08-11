@@ -1,6 +1,7 @@
 import React from 'react';
 import { createClient } from '@/utils/supabase/client';
-import ProjectDetail from '@/component/ProjectDetail';
+// import ProjectDetail from '@/component/ProjectDetail';
+import ProjectDetail from '@/app/component/projectDetail';
 
 const supabase = createClient();
 
